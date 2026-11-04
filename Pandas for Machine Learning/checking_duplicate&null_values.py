@@ -50,3 +50,12 @@ df_no_duplicates_name_city_last = df.drop_duplicates(subset=['Name', 'City'], ke
 
 # permanently removing duplicate rows based on the 'Name' and 'City' columns, keeping the last occurrence
 df.drop_duplicates(subset=['Name', 'City'], keep='last', inplace=True)
+
+# Handling null values by dropping rows with null values
+df_no_nulls = df.dropna()   
+
+# dropna with how='all' to drop rows where all elements are null
+df_no_nulls_all = df.dropna(how='all')
+
+# Handling null values by filling null values with a specific value
+df_filled_nulls = df.fillna(value={'Name': 'Unknown', 'City': 'Unknown', 'Department': 'Unknown', 'Salary': 0})
