@@ -1,6 +1,6 @@
 # Seaborn data visualization - lineplot
 
-import seaborn as sns
+import seaborn as sns # type: ignore
 import matplotlib.pyplot as plt
 
 # Sample data
