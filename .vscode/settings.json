@@ -6,6 +6,7 @@
     "lineplot",
     "logspace",
     "muliple",
+    "relplot",
     "upcasting"
   ]
 }
