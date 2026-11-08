@@ -3,6 +3,7 @@
     "AEIOU",
     "dimention",
     "errorbar",
+    "kdeplot",
     "lineplot",
     "logspace",
     "muliple",
